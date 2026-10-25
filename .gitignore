@@ -1,0 +1,24 @@
+# Raw scan reports
+reports/*.txt
+reports/*.xml
+reports/*.gnmap
+reports/*.json
+
+# Secrets and private keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
